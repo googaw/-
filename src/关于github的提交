@@ -1,0 +1,12 @@
+git是版本控制器，github是控制器仓库。
+
+常用的命令行
+
+git clone   git clone https://github.com/你的用户名/Drone-Arm-Dev.git #用于拷贝仓库文件到本地
+本地仓库操作
+git add  git add 文件名/src/文件.cpp    #将文件添加到本地仓库
+git commit -m "文件名"  #添加当前版本主要描述
+git push origin main #将文件部署到github仓库中
+
+github仓库操作
+add file
